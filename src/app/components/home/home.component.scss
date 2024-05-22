@@ -1,6 +1,6 @@
 @import "../../../color-variables";
 
-main{
+main {
   display: flex;
   flex-direction: column;
   gap: 84px;
@@ -21,13 +21,13 @@ main{
     color: $primary-text;
   }
 
-    h1 {
-      font-size: 72px;
-      font-weight: 900;
-      color: $primary-color;
-    }
-
+  h1 {
+    font-size: 72px;
+    font-weight: 900;
+    color: $primary-color;
   }
+
+}
 
 
 .benefit-section {
@@ -62,6 +62,12 @@ main{
       -webkit-text-fill-color: transparent;
       font-style: normal;
     }
+  }
+
+  .cta\=section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   @media (min-width: 1080px) {
